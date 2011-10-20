@@ -4,7 +4,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.apache.felix.commons</groupId>
+  <groupId>org.mongodb</groupId>
   <artifactId>mongo-java-driver.osgi</artifactId>
   <name>mongo-java-driver bundle</name>
   <description>
@@ -12,11 +12,6 @@
   </description>
   <version>2.6.5-osgi</version>
   <packaging>bundle</packaging>
-
-  <organization> 
-    <name>Apache Felix Project</name> 
-    <url>http://felix.apache.org/</url> 
-  </organization>
 
   <dependencies>
     <dependency>
